@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Blank Starter (Minimal) - SB Admin Pro</title>
+    <title>NUNA APP | {{ $title }}</title>
     @include('layouts.partial.css')
 </head>
 
@@ -24,17 +24,17 @@
         </div>
         <div id="layoutSidenav_content">
             <main>
-                <header class="page-header page-header-compact page-header-light border-bottom bg-white mb-4">
+                <header class="page-header page-header-dark bg-gradient-primary-to-secondary pb-10">
                     <div class="container-xl px-4">
-                        <div class="page-header-content">
-                            <div class="row align-items-center justify-content-between pt-3">
-                                <div class="col-auto mb-3">
+                        <div class="page-header-content pt-4">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-auto mt-4">
                                     <h1 class="page-header-title">
-                                        <div class="page-header-icon"><i data-feather="file"></i></div>
-                                        Blank Starter (Minimal)
+                                        <div class="page-header-icon"><i data-feather="folder"></i></div>
+                                        {{ $title }}
                                     </h1>
+
                                 </div>
-                                <div class="col-12 col-xl-auto mb-3">Optional page header content</div>
                             </div>
                         </div>
                     </div>

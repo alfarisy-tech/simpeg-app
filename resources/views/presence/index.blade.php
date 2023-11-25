@@ -121,8 +121,8 @@
             }
 
             // Contoh pemanggilan fungsi cekRadius
-            cekRadius(-2.9467237158338055, 104.78538308154498, 50); // profecta perdana
-            // cekRadius(-2.9925124094195366, 104.70672476016057, 50); // antapura asri
+            // cekRadius(-2.9467237158338055, 104.78538308154498, 50); // profecta perdana
+            cekRadius(-2.9925124094195366, 104.70672476016057, 50); // antapura asri
         </script>
     @endpush
 @endsection

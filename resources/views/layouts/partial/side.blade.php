@@ -10,11 +10,11 @@
         </a>
         <div class="collapse" id="collapseDashboards" data-bs-parent="#accordionSidenav">
             <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPages">
-                <a class="nav-link" href="dashboard-1.html">
+                <a class="nav-link" href="{{ url('user/role') }}">
                     Role
                 </a>
-                <a class="nav-link" href="dashboard-2.html">Permission</a>
-                <a class="nav-link" href="dashboard-3.html">User</a>
+                <a class="nav-link" href="{{ url('user/permission') }}">Permission</a>
+                <a class="nav-link" href="{{ url('user') }}">User</a>
             </nav>
         </div>
         {{-- ** End Master User --}}
